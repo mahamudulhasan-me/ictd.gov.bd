@@ -28,7 +28,7 @@ const AnotherMinistryMarquee = () => {
             className="cursor-pointer"
           />
           <Image
-            src="/images/anotherMinistry/e-directory.jpg"
+            src="/images/anotherMinistry/discount_bn.jpg"
             alt="flag"
             width={400}
             height={100}
