@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Tiro Bangla", serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.navItem {
+  @apply h-10 flex justify-center items-center px-4 rounded-sm hover:text-white  cursor-pointer;
+}
