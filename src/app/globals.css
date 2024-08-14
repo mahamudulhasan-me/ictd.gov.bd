@@ -12,3 +12,15 @@ body {
 .navItem {
   @apply h-10 flex justify-center items-center px-4 rounded-sm hover:text-white  cursor-pointer;
 }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-slow {
+  animation: rotate 40s linear infinite;
+}
