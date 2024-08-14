@@ -1,3 +1,5 @@
+import AboutUs from "@/pages/home/about/AboutUs";
+import AnotherMinistryMarquee from "@/pages/home/anotherMinistryMarquee/AnotherMinistryMarquee";
 import Banner from "@/pages/home/banner/Banner";
 import NoticeBoard from "@/pages/home/noticeBoard/NoticeBoard";
 import NoticeMarquee from "@/pages/home/noticeMarquee/NoticeMarquee";
@@ -12,6 +14,8 @@ const page = () => {
         <NoticeBoard />
         <HonorablePerson />
       </div>
+      <AboutUs />
+      <AnotherMinistryMarquee />
     </div>
   );
 };
