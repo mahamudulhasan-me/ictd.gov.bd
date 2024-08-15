@@ -7,7 +7,7 @@ const ImportantLinks = () => {
   return (
     <div className="mt-10">
       <h1 className="w-full bg-green text-white  rounded-sm px-3 pt-1 pb-0.5 text-xl mb-3 text-center">
-        অভ্যন্তরীণ ই-সেবাসমূহ
+        গুরুত্বপূর্ণ লিংক
       </h1>
       <div className="space-y-2 mt-10 pl-1">
         {importantLinks.map((link, index) => (
