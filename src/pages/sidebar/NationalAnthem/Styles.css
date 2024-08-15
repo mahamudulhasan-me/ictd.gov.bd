@@ -1,0 +1,29 @@
+/* From Uiverse.io by ahmed150up */
+.voice-chat-card {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+
+.voice-chat-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.voice-chat-card-body {
+  padding: 10px;
+}
+
+.audio-container {
+  display: flex;
+  align-items: center;
+}
+
+audio {
+  width: 100%;
+}
