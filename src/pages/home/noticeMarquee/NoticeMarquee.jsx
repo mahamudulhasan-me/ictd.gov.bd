@@ -1,4 +1,4 @@
-import { notices } from "@/utils/notices";
+import { notices } from "@/menuItems/notices";
 import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";

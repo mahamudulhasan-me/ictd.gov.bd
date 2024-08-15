@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import Link from "next/link";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import HonorablePersonCard from "./HonorablePersonCard";
-export default function App() {
+export default function HonorablePerson() {
   return (
     <div className="col-span-3 mt-10 ml-12 flex flex-col justify-between space-y-4">
       <div>
@@ -50,7 +50,7 @@ export default function App() {
       <hr />
       <div className="bg-gray-100 rounded-md p-2 space-y-2">
         <h1 className="flex items-center gap-2  ">
-          <RxExternalLink />{" "}
+          <RxExternalLink className="text-green" />{" "}
           <Link
             href={"#"}
             className="text-blue-700 hover:text-red transition-colors"
@@ -59,7 +59,7 @@ export default function App() {
           </Link>
         </h1>
         <h1 className="flex items-center gap-2  ">
-          <RxExternalLink />{" "}
+          <RxExternalLink className="text-green" />{" "}
           <Link
             href={"#"}
             className="text-blue-700 hover:text-red transition-colors"
@@ -68,7 +68,7 @@ export default function App() {
           </Link>
         </h1>
         <h1 className="flex items-center gap-2  ">
-          <RxExternalLink />{" "}
+          <RxExternalLink className="text-green" />{" "}
           <Link
             href={"#"}
             className="text-blue-700 hover:text-red transition-colors"
@@ -77,7 +77,7 @@ export default function App() {
           </Link>
         </h1>
         <h1 className="flex items-center gap-2  ">
-          <RxExternalLink />{" "}
+          <RxExternalLink className="text-green" />{" "}
           <Link
             href={"#"}
             className="text-blue-700 hover:text-red transition-colors"

@@ -1,6 +1,6 @@
 "use client";
 import AccordionItem from "@/components/ui/AccordionItem";
-import { notices } from "@/utils/notices";
+import { notices } from "@/menuItems/notices";
 import Image from "next/image";
 import { useState } from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
