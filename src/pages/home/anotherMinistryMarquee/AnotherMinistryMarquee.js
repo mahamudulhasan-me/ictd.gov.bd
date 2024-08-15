@@ -5,7 +5,7 @@ const AnotherMinistryMarquee = () => {
   return (
     <div className=" my-5">
       <Marquee pauseOnHover>
-        <div className="grid grid-cols-5 items-stretch">
+        <div className="grid grid-cols-5 items-stretch overflow-hidden">
           <Image
             src="/images/anotherMinistry/e-directory.jpg"
             alt="flag"

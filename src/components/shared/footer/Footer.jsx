@@ -4,15 +4,16 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="-mt-5 w-full b ">
+    <footer className="md:-mt-5 mt-5 w-full b ">
       <Image
         alt="footer"
         src="/images/banner/footer_top_bg.png"
         width={1920}
         height={100}
+        className="md:w-[1920px] md:h-[100px]  w-[500px] h-[50px] "
       />
       <div className="w-full py-6 bg-violet-100">
-        <div className="container mx-auto px-1 grid grid-cols-12 gap-20">
+        <div className="container mx-auto md:px-1 px-2 md:grid grid-cols-12 md:gap-20 space-y-4 md:space-y-0">
           <div className="col-span-4">
             <Image
               src={"/images/logo.png"}
@@ -30,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="col-span-5 flex justify-evenly items-center gap-20">
             <div>
-              <p className="text-lg w-fit border-dashed border-b border-slate-400">
+              <p className="md:text-lg w-fit border-dashed border-b border-slate-400">
                 প্রয়োজনীয় লিংক:
               </p>
               <div className="flex flex-col items-start gap-2 text-sm mt-4">
@@ -72,7 +73,7 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <p className="text-lg w-fit border-dashed border-b border-slate-400 flex items-center gap-1">
+              <p className="md:text-lg w-fit border-dashed border-b border-slate-400 flex items-center gap-1">
                 পরিকল্পনা ও বাস্তবায়নে:
               </p>
               <div className="flex flex-col items-start gap-2 text-sm mt-4">
@@ -113,7 +114,7 @@ const Footer = () => {
           </div>
           <div className="col-span-3 h-full flex flex-col justify-center">
             <div className="flex flex-col items-center gap-2 text-xl justify-end">
-              <p className="text-lg w-fit border-dashed border-b border-slate-400">
+              <p className="md:ext-lg w-fit border-dashed border-b border-slate-400">
                 কারিগরি সহায়তায়:
               </p>
 
