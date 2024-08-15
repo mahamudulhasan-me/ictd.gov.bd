@@ -19,7 +19,7 @@ const Search = () => {
               placeholder=""
               id=""
             />
-            <button className="bg-green/90  px-1.5 rounded-tr-md rounded-br-md text-white  hover:bg-green transition-colors text-sm border-none">
+            <button className="bg-green/90  px-1.5 rounded-tr-md rounded-br-md text-white  hover:bg-green transition-colors  border-none font-semibold">
               Search
             </button>
           </div>

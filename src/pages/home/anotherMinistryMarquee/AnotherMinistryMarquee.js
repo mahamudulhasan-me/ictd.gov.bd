@@ -3,9 +3,9 @@ import Marquee from "react-fast-marquee";
 
 const AnotherMinistryMarquee = () => {
   return (
-    <div className="container mx-auto px-1 my-5">
+    <div className=" my-5">
       <Marquee pauseOnHover>
-        <div className="grid grid-cols-4 items-stretch">
+        <div className="grid grid-cols-5 items-stretch">
           <Image
             src="/images/anotherMinistry/e-directory.jpg"
             alt="flag"
@@ -29,6 +29,13 @@ const AnotherMinistryMarquee = () => {
           />
           <Image
             src="/images/anotherMinistry/discount_bn.jpg"
+            alt="flag"
+            width={400}
+            height={100}
+            className="cursor-pointer"
+          />
+          <Image
+            src="/images/anotherMinistry/internal_eservice_bn.jpg"
             alt="flag"
             width={400}
             height={100}

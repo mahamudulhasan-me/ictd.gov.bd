@@ -24,7 +24,7 @@ const ServiceCard = ({ img, title, link, menus }) => {
         </div>
       </div>
 
-      <div className="p-6 mt-5">
+      <div className="p-6 mt-6">
         {menus?.map((menu, index) => (
           <div key={index} className="flex items-start gap-1 ">
             <RiArrowRightSFill className="text-xl text-green" />

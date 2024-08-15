@@ -48,7 +48,7 @@ export default function HonorablePerson() {
         </Swiper>
       </div>
       <hr />
-      <div className="bg-gray-100 rounded-md p-2 space-y-2">
+      <div className="bg-violet-50 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-md p-2 space-y-2 border border-gray-300">
         <h1 className="flex items-center gap-2  ">
           <RxExternalLink className="text-green" />{" "}
           <Link

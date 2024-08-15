@@ -16,7 +16,7 @@ export default function NoticeBoard() {
     <div className="relative font-inter antialiased col-span-9 my-10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] p-4 rounded-md bg-gradient-to-tr from-gray-200/40 to-gray-50/40">
       <main className="relative flex flex-col justify-center overflow-hidden ">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-slate-900 pb-2 mb-4 flex items-center gap-2 border-b border-gray-300">
             <Image
               src={"/images/icons/pin.png"}
               width={24}

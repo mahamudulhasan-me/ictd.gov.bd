@@ -7,6 +7,7 @@ const NoticeOrderCircular = () => {
       <ServiceCard
         title={"বিজ্ঞপ্তি/আদেশ/পরিপত্র"}
         menus={noticeOrderCircularMenu}
+        img={"/images/services/FinalLogoSDG.png"}
       />
     </div>
   );

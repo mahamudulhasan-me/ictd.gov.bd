@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hotline = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <h1 className="w-full bg-green text-white  rounded-sm px-3 pt-1 pb-0.5 text-xl mb-9 text-center">
         জরুরি হটলাইন
       </h1>
