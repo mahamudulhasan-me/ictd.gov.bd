@@ -60,7 +60,7 @@ const page = () => {
           <Hotline />
         </div>
       </div>
-      <div className="container mx-auto px-1 grid grid-cols-12 my-10">
+      <div className="container mx-auto px-1 grid grid-cols-12 mt-10">
         <div className="col-span-9 ">
           <h1 className="text-2xl w-full text-center  text-white mb-4 flex items-center justify-center  gap-1 bg-green rounded-sm pt-0.5">
             সচেতনতা ভিডিও
