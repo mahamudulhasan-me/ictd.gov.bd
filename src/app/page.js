@@ -24,25 +24,25 @@ const page = () => {
     <div>
       <Banner />
       <NoticeMarquee />
-      <div className="container mx-auto px-1 grid grid-cols-12 items-start">
+      <div className="container mx-auto px-1 md:grid grid-cols-12 items-start">
         <NoticeBoard />
         <HonorablePerson />
       </div>
       <AboutUs />
       {/* services  */}
-      <div className="container mx-auto px-1 grid grid-cols-12 my-16">
+      <div className="container mx-auto md:px-1 px-2 md:grid grid-cols-12 my-16">
         <div className="col-span-9 ">
-          <h1 className="text-2xl w-full text-center  text-white mb-4 flex items-center justify-center  gap-1 bg-green rounded-sm pt-0.5">
+          <h1 className="text-2xl w-full text-center  text-white mb-4 md:flex items-center justify-center  gap-1 bg-green rounded-sm pt-0.5">
             সকল সেবা সমূহ{" "}
           </h1>
-          <div className="grid grid-cols-2 gap-x-8 gap-y-10 mt-10">
+          <div className="md:grid grid-cols-2 gap-x-8 gap-y-10 mt-10 space-y-4 md:space-y-0">
             <NoticeOrderCircular />
             <PoliciesAndPublications />
             <CitizenEServices />
             <CitizenCharter />
           </div>
         </div>
-        <div className="col-span-3  ml-12">
+        <div className="col-span-3  md:ml-12 md:mt-0 mt-10">
           <InternaleServices />
           <ImportantLinks />
         </div>

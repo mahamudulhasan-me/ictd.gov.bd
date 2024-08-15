@@ -28,7 +28,7 @@ const ServiceCard = ({ img, title, link, menus }) => {
         {menus?.map((menu, index) => (
           <div key={index} className="flex items-start gap-1 ">
             <RiArrowRightSFill className="text-xl text-green" />
-            <Link href={menu.url} className="h-7 hover:text-red">
+            <Link href={menu.url} className="min-h-7 hover:text-red">
               {menu.title}
             </Link>
           </div>

@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <div className="flex divide-x">
+    <div className="hidden md:flex divide-x ">
       <h5 className="navItem text-orange-600 hover:bg-orange-600">
         আমাদের সম্পর্কিত
       </h5>

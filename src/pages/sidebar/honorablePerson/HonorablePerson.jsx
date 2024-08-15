@@ -13,7 +13,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import HonorablePersonCard from "./HonorablePersonCard";
 export default function HonorablePerson() {
   return (
-    <div className="col-span-3 mt-10 ml-12 flex flex-col justify-between space-y-4">
+    <div className="col-span-3 mt-10 md:ml-12 flex flex-col justify-between space-y-4">
       <div>
         <h1 className="w-full bg-green text-white  rounded-sm px-3 pt-1 pb-0.5 text-xl mb-3 text-center">
           Ministry Officials
