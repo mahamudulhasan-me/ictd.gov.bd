@@ -13,7 +13,7 @@ const Footer = () => {
         className="md:w-[1920px] md:h-[100px]  w-[500px] h-[50px] "
       />
       <div className="w-full py-6 bg-violet-100">
-        <div className="container mx-auto md:px-1 px-2 md:grid grid-cols-12 md:gap-20 space-y-4 md:space-y-0">
+        <div className="container mx-auto md:px-1 px-2 md:grid grid-cols-12 md:gap-20 space-y-5 md:space-y-0">
           <div className="col-span-4">
             <Image
               src={"/images/logo.png"}
@@ -29,7 +29,7 @@ const Footer = () => {
               সম্ভাবনার নতুন দিগন্ত উন্মোচন করছি।
             </p>
           </div>
-          <div className="col-span-5 flex justify-evenly items-center gap-20">
+          <div className="col-span-5 flex md:justify-evenly justify-between items-center md:gap-20">
             <div>
               <p className="md:text-lg w-fit border-dashed border-b border-slate-400">
                 প্রয়োজনীয় লিংক:
@@ -118,7 +118,12 @@ const Footer = () => {
                 কারিগরি সহায়তায়:
               </p>
 
-              <Image src={"/images/np-logo-set.png"} width={300} height={100} />
+              <Image
+                src={"/images/np-logo-set.png"}
+                width={300}
+                height={100}
+                alt="technical helpers"
+              />
             </div>
           </div>
         </div>
