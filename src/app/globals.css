@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,8 +11,13 @@ body {
 }
 
 .navItem {
-  @apply h-10 flex justify-center items-center px-4 rounded-sm hover:text-white  cursor-pointer;
+  @apply h-10 flex justify-center items-center px-4 rounded-sm cursor-pointer;
 }
+
+.navItem:hover {
+  @apply rounded-b-none;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -23,4 +29,27 @@ body {
 
 .rotate-slow {
   animation: rotate 40s linear infinite;
+}
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+} */
+
+.subMenuBG {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.subMenuItem {
+  @apply hover:bg-violet-100 px-2 py-1 hover:text-red rounded-sm transition-colors;
 }
