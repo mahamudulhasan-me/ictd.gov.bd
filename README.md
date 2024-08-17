@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bangladesh ICT Government Website - Landing Page Redesign
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://ictd-gov-bd.vercel.app/)
+
+## Overview
+
+This repository contains the redesign of the landing page for the Bangladesh ICT government website. The redesign focuses on providing a modern, user-friendly interface that enhances the user experience and reflects the technological advancements of the ICT sector in Bangladesh.
+
+## Features
+
+- **Modern Design**: A clean and intuitive layout with a focus on user experience.
+- **Responsive Layout**: Fully responsive, ensuring a seamless experience across all devices.
+- **Next.js**: Utilized for server-side rendering, routing, and performance optimizations.
+- **Tailwind CSS**: Leveraged for utility-first CSS styling, enabling rapid UI development.
+
+## Technologies Used
+
+- **Next.js**: A React framework for production-grade applications.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs.
+
+## Live Demo
+
+You can view the live version of the redesigned landing page here: [Bangladesh ICT Government Website - Landing Page](https://ictd-gov-bd.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+To view or modify the landing page locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/mahamudulhasan-me/ictd.gov.bd.git
+   cd ictd.gov.bd
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the development server:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Open your browser:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   Visit `http://localhost:3000` to view the landing page in development mode.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Mahamudul Hasan**
+- **E-mail**: mahamudulhasan.org@gmail.com
+- **GitHub**: [mahamudulhasan-me](https://github.com/mahamudulhasan-me)
