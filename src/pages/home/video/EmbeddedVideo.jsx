@@ -18,20 +18,25 @@ const EmbeddedVideo = ({ title, thumbnail }) => {
             </h1>
             {/* Video thumbnail */}
             <button
-              className="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300  group w-full h-full"
+              className="relative flex justify-center items-center focus:outline-none focus-visible:ring focus-visible:ring-indigo-300 group w-full h-full"
               onClick={() => setModalOpen(true)}
               aria-controls="modal"
               aria-label="Watch the video"
             >
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-slate-950/50  transition-opacity group-hover:bg-opacity-50 z-10"></div>
+
+              {/* Image */}
               <Image
-                className=" shadow-2xl transition-shadow duration-300 ease-in-out w-full h-full object-cover"
+                className="shadow-2xl transition-shadow duration-300 ease-in-out w-full h-full object-cover"
                 src={thumbnail}
                 alt="Modal video thumbnail"
                 layout="fill"
               />
+
               {/* Play icon */}
               <svg
-                className="absolute pointer-events-none group-hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="absolute z-20 pointer-events-none group-hover:scale-110 transition-transform duration-300 ease-in-out"
                 xmlns="http://www.w3.org/2000/svg"
                 width="72"
                 height="72"
