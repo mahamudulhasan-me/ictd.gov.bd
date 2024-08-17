@@ -32,9 +32,10 @@ export default function PortalBannerSlider() {
         <SwiperSlide>
           <Image
             src={"/images/banner/portal/0.jpg"}
-            width={720}
-            height={150}
+            width={700}
+            height={200}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -43,6 +44,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
 
@@ -52,6 +54,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -60,6 +63,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -68,6 +72,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -76,6 +81,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -84,6 +90,7 @@ export default function PortalBannerSlider() {
             width={720}
             height={150}
             alt="banner"
+            className="w-full h-full"
           />
         </SwiperSlide>
       </Swiper>

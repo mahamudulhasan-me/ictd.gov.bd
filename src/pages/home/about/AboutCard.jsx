@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 const AboutCard = ({ img, title }) => {
   return (
-    <div className="flex gap-5 justify-center items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 rounded-md w-full bg-white transition-shadow duration-300 hover:shadow-[rgba(0,0,0,0.35)_0px_5px_15px]">
+    <div className="flex gap-6 justify-center items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] p-4 rounded-md  bg-white transition-shadow duration-300 hover:shadow-[rgba(0,0,0,0.35)_0px_5px_15px] w-1/2 ">
       <div>
         <Image src={img} alt={title} width={70} height={70} />
       </div>

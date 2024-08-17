@@ -4,7 +4,7 @@ import PortalBannerSlider from "./PortalBannerSlider";
 import PortalTabs from "./PortalTabs";
 const NationalPortal = () => {
   return (
-    <div className=" container mx-auto md:px-1 px-2  my-20">
+    <div className=" container mx-auto md:px-1 px-2   my-20">
       <h1 className="text-2xl w-full text-center font-bold text-slate-900 mb-4 flex items-center justify-center  ">
         <Image
           src={"/images/icons/web-portal.png"}
@@ -14,7 +14,7 @@ const NationalPortal = () => {
         />
         বাংলাদেশ জাতীয় তথ্য বাতায়ন
       </h1>
-      <div className="md:grid grid-cols-2 mt-8">
+      <div className="md:grid grid-cols-2 mt-8  gap-8 items-stretch">
         <PortalBannerSlider />
         <PortalTabs />
       </div>

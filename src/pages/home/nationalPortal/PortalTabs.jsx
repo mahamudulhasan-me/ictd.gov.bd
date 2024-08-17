@@ -1,11 +1,16 @@
 "use client";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import AllEServices from "./TabDetails/AllEServices";
+import MobileSerVices from "./TabDetails/MobileServices";
+import NewServices from "./TabDetails/NewServices";
+import OfficeServices from "./TabDetails/OfficeSrvices";
+import PopularServices from "./TabDetails/PopularServices";
 const PortalTabs = () => {
   return (
-    <div>
+    <div className="shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]  rounded-sm">
       <Tabs>
-        <TabList>
+        <TabList className="bg-violet-50 border">
           <Tab>জনপ্রিয় সেবা</Tab>
           <Tab>নতুন সেবা</Tab>
           <Tab>মোবাইল সেবা</Tab>
@@ -14,19 +19,19 @@ const PortalTabs = () => {
         </TabList>
 
         <TabPanel>
-          <h2>Any content 1</h2>
+          <PopularServices />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <NewServices />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <MobileSerVices />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <OfficeServices />
         </TabPanel>
         <TabPanel>
-          <h2>Any content 2</h2>
+          <AllEServices />
         </TabPanel>
       </Tabs>
     </div>

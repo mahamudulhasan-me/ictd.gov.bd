@@ -13,7 +13,7 @@ const AboutUs = () => {
         />
         আমাদের বিষয়ে{" "}
       </h1>
-      <div className="md:flex justify-between items-center gap-8 mt-6 mb-4 space-y-4 md:space-y-0">
+      <div className="md:flex justify-evenly items-center gap-8 mt-6 mb-4 space-y-4 md:space-y-0 px-8">
         <AboutCard img={"/images/icons/goal.png"} title="ভিশন ও মিশন" />
         <AboutCard
           img={"/images/icons/hierarchical.png"}
