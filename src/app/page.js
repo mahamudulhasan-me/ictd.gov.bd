@@ -1,6 +1,8 @@
 import AboutUs from "@/pages/home/about/AboutUs";
 import AnotherMinistryMarquee from "@/pages/home/anotherMinistryMarquee/AnotherMinistryMarquee";
+
 import Banner from "@/pages/home/banner/Banner";
+import NationalPortal from "@/pages/home/nationalPortal/NationalPortal";
 import NoticeBoard from "@/pages/home/noticeBoard/NoticeBoard";
 import NoticeMarquee from "@/pages/home/noticeMarquee/NoticeMarquee";
 import AnnualPerformanceManagement from "@/pages/home/services/AnnualPerformanceManagement";
@@ -65,6 +67,7 @@ const page = () => {
           <Hotline />
         </div>
       </div>
+      <NationalPortal />
       <div className="container mx-auto md:px-1 px-2 md:grid grid-cols-12 mt-10">
         <div className="col-span-9 ">
           <h1 className="text-2xl w-full text-center  text-white mb-4 flex items-center justify-center  gap-1 bg-green rounded-sm pt-0.5">

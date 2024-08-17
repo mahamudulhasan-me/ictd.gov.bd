@@ -9,12 +9,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
 import Link from "next/link";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import HonorablePersonCard from "./HonorablePersonCard";
 export default function HonorablePerson() {
   return (
-    <div className="col-span-3 mt-10 md:ml-12 flex flex-col justify-between space-y-4">
-      <div>
+    <div className="col-span-3 mt-10 md:ml-12 flex flex-col justify-between space-y-4 ">
+      <div className="-z-0">
         <h1 className="w-full bg-green text-white  rounded-sm px-3 pt-1 pb-0.5 text-xl mb-3 text-center">
           Ministry Officials
         </h1>
@@ -25,8 +25,8 @@ export default function HonorablePerson() {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          // navigation={true}
+          modules={[Autoplay, Navigation]}
           className="mySwiper"
         >
           <>

@@ -1,6 +1,6 @@
 const OfficeTypeSelector = () => {
   return (
-    <div>
+    <div className="flex items-center">
       <select className="text-black p-1 outline-none rounded-l">
         <option value="">অফিসের ধরণ</option>
         <option value="">মন্ত্রণালয়/বিভাগ</option>
@@ -11,7 +11,7 @@ const OfficeTypeSelector = () => {
         <option value="">ইউনিয়ন বাতায়ন</option>
         <option value="">অন্যান্য</option>
       </select>
-      <button className="bg-green text-white px-3  py-0.5 font-semibold rounded-r">
+      <button className="bg-green text-white px-3  py-[0.048rem] font-semibold rounded-r">
         Go
       </button>
     </div>

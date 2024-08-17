@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 const AnotherMinistryMarquee = () => {
   return (
-    <div className=" my-5">
+    <div className=" my-5 -z-10">
       <Marquee pauseOnHover>
         <div className="grid grid-cols-5 items-stretch overflow-hidden">
           <Image

@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { RiArrowRightSFill } from "react-icons/ri";
 const ServiceCard = ({ img, title, link, menus }) => {
   return (
-    <div className="rounded-md shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(0,_0,_0,_0.24)_0px_6px_12px] transition-shadow duration-300 ">
+    <div className="rounded-md shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(0,_0,_0,_0.24)_0px_6px_12px] transition-shadow duration-300 flex flex-col justify-between">
       <div
         className="bg-cover bg-center flex items-start justify-center h-[8rem] bg-violet-950/90 bg-blend-overlay text-white rounded-t-md relative"
         style={{ backgroundImage: "url('/images/banner/banner.jpg')" }}
