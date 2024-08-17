@@ -12,8 +12,8 @@ const Header = () => {
       <Top />
       {/* main  navbar header */}
       <Headroom>
-        <div className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] z-[999999] bg-white">
-          <div className="container mx-auto md:px-1 px-2  flex justify-between items-center ">
+        <div className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] z-50  bg-white">
+          <div className="container mx-auto md:px-1 px-2  flex justify-between items-center bg-white">
             <Link href="/">
               <Image
                 src="/images/logo.png"

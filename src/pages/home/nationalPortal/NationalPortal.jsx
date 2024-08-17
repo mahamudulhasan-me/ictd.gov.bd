@@ -14,7 +14,7 @@ const NationalPortal = () => {
         />
         বাংলাদেশ জাতীয় তথ্য বাতায়ন
       </h1>
-      <div className="md:grid grid-cols-2 mt-8  gap-8 items-stretch">
+      <div className="md:grid grid-cols-2 mt-8  gap-8 items-stretch space-y-4 md:space-y-0">
         <PortalBannerSlider />
         <PortalTabs />
       </div>

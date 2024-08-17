@@ -9,17 +9,17 @@ const ResponsiveNav = () => {
   return (
     <div className="md:hidden">
       <div
-        className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border border-gray-300 text-2xl p-1 rounded-md w-fit"
+        className="shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] border border-gray-300 text-2xl p-1 rounded-md w-fit  z-50 bg-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? <IoClose /> : <FaBars />}
       </div>
       <div
-        className={`fixed top-24 right-0 w-full h-full bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] z-10 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-18 right-0 w-full h-fit bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] z-40 transform transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <nav className="mt-5 divide-y">
+        <nav className="mt-6 divide-y z-50">
           <h5 className="navItem text-orange-600 hover:bg-orange-600">
             আমাদের সম্পর্কিত
           </h5>
